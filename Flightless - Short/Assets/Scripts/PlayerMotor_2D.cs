@@ -1,18 +1,36 @@
 ﻿using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class PlayerMotor_2D: MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    Player_Action controls;
+
+    private enum Direction
     {
-        
+        Left = -1,
+        None = 0,
+        Right = 1
+    };
+
+    int _movementInput;
+    private Direction _direction = Direction.None;
+
+    private void Awake()
+    {
+        controls = new Player_Action();
+        controls.Player_Movement.Move.performed += ctx => _movementInput = ctx.ReadValue<int>();
+
     }
 
-    // Update is called once per frame
-    void Update()
+    private void OnEnable()
     {
-        
+        controls.Enable();
+    }
+
+    private void FixedUpdate()
+    {
+        _direction = (Direction)_movementInput;
+        Debug.Log(_movementInput + ": Moving " + _direction);
     }
 }
