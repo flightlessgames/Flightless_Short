@@ -10,14 +10,17 @@ switch con_tar
 	default:
 	case 1:
 		camera_set_view_target(view_camera[0],obj_pc_ship1);
+		if obj_pc_ship1.fuel <= 0
+			con_tar = 2;
 		break;
 	case 2:
 		camera_set_view_target(view_camera[0],obj_pc_ship2);
-		//if (obj_pc_ship2.pc_battery <= 0)
-		//	con_tar = 3;
 		break;
 	case 3:
-		camera_set_view_target(view_camera[0],obj_pc_ship3);
+		if instance_exists(obj_pc_ship3)
+			camera_set_view_target(view_camera[0],obj_pc_ship3);
+		else
+			con_tar = 1;
 		break;
 }
 

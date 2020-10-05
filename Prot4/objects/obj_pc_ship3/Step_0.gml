@@ -17,5 +17,11 @@ hsp = cos(theta) * move;
 vsp = sin(theta) * move;
 
 //explode
-
-//respawn
+if key_j == 1
+{
+	obj_pc_ship1.ship3_instance = 0;
+	//explode
+	
+	instance_destroy();
+	
+}

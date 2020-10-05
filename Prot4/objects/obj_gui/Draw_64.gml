@@ -1,19 +1,24 @@
 /// @description Insert description here
 // You can write your code in this editor
+draw_text(10,4, "Ship1 Fuel: " + string(obj_pc_ship1.fuel / (obj_pc_ship1.fuel_max/100)));
+draw_text(10,20, "Ship1 Minerals: " + string(obj_pc_ship1.metals));
+draw_text(10,36, "Ship1_J: " + string(obj_pc_ship2.key_j));
+draw_text(10,52, "Ship3_Istance: " + string(obj_pc_ship1.ship3_instance));
+
 
 switch con_tar
 {
 	case 1:		
-		draw_text(32,16,"Mothership");
+		draw_text(10,100,"Mothership");
 		break;
 	case 2:
-		draw_text(32,40,"Oribter");
+		draw_text(10,68,"Oribter");
 		break;
 	case 3:
-		draw_text(32,64,"Needle-nose");
+		draw_text(10,84,"Needle-nose");
 		break;
 	default:
-		draw_text(16,16,"ERROR_INVALID_CON_TAR");
+		draw_text(10,100,"ERROR_INVALID_CON_TAR");
 		break;
 }
 

@@ -31,7 +31,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Buttons",
-    "path": "folders/Objects/Interactibles/Buttons.yy",
+    "path": "folders/Objects/Retro_Interactibles/Buttons.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_button1",

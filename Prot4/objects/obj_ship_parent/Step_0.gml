@@ -6,6 +6,7 @@ if obj_gui.con_tar == my_id
 	key_right = keyboard_check(ord("D"));
 	key_up = keyboard_check(ord("W"));
 	key_down = keyboard_check(ord("S"));
+	key_j = keyboard_check_pressed(ord("J"));
 }
 else
 {
@@ -13,6 +14,7 @@ else
 	key_right = 0;
 	key_up = 0;
 	key_down = 0;
+	key_j = 0;
 }
 
 if place_meeting(x+hsp,y,obj_wall)

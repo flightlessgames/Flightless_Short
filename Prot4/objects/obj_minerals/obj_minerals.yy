@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_block",
-    "path": "sprites/spr_block/spr_block.yy",
+    "name": "spr_block2",
+    "path": "sprites/spr_block2/spr_block2.yy",
   },
   "solid": false,
   "visible": true,
@@ -24,17 +24,16 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"obj_block","path":"objects/obj_block/obj_block.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"obj_block","path":"objects/obj_block/obj_block.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"obj_minerals","path":"objects/obj_minerals/obj_minerals.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Retro_Interactibles",
-    "path": "folders/Objects/Retro_Interactibles.yy",
+    "name": "Neo_Interactibles",
+    "path": "folders/Objects/Neo_Interactibles.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_block",
+  "name": "obj_minerals",
   "tags": [],
   "resourceType": "GMObject",
 }

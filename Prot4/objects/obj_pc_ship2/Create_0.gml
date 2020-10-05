@@ -8,4 +8,4 @@ my_id = 2;
 theta_speed = 4;
 
 //special mechanics
-carry_distance = 4;
+tractor_dist = 8;	//distance to resources

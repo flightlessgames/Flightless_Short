@@ -30,8 +30,8 @@
   ],
   "overriddenProperties": [],
   "parent": {
-    "name": "Interactibles",
-    "path": "folders/Objects/Interactibles.yy",
+    "name": "Retro_Interactibles",
+    "path": "folders/Objects/Retro_Interactibles.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_teleporter2",
