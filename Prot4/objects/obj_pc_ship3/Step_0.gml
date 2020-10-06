@@ -1,4 +1,4 @@
-/// @description Insert description here
+/// @description Missile/Tank Tread Move
 // You can write your code in this editor
 
 // Inherit the parent event
@@ -19,9 +19,15 @@ vsp = sin(theta) * move;
 //explode
 if key_j == 1
 {
-	obj_pc_ship1.ship3_instance = 0;
-	//explode
-	
-	instance_destroy();
-	
+	explode();		
 }
+
+if (abs(hsp) + abs(vsp)) <> 0
+{
+	fuel -= 1;
+	if fuel <= 0
+	{
+		explode();
+	}
+}
+	

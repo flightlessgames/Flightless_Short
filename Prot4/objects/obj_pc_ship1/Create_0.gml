@@ -1,4 +1,4 @@
-/// @description Insert description here
+/// @description Mothership
 // You can write your code in this editor
 event_inherited();
 //parent overrides

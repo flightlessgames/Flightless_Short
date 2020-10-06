@@ -1,11 +1,17 @@
-/// @description Insert description here
+/// @description HUD
 // You can write your code in this editor
+
+//debug text/HUD
 draw_text(10,4, "Ship1 Fuel: " + string(obj_pc_ship1.fuel / (obj_pc_ship1.fuel_max/100)));
 draw_text(10,20, "Ship1 Minerals: " + string(obj_pc_ship1.metals));
-draw_text(10,36, "Ship1_J: " + string(obj_pc_ship2.key_j));
+if instance_exists(obj_pc_ship3)
+	draw_text(10,36, "Ship3 Fuel: " + string(obj_pc_ship3.fuel / (obj_pc_ship3.max_fuel/100)));
+else
+	draw_text(10,36, "Ship3 Disabled.");
+
 draw_text(10,52, "Ship3_Istance: " + string(obj_pc_ship1.ship3_instance));
 
-
+//character selector
 switch con_tar
 {
 	case 1:		
@@ -23,6 +29,7 @@ switch con_tar
 }
 
 /*
+//zone identifiers
 switch zone
 {
 	case 0:
@@ -48,6 +55,7 @@ switch zone
 draw_text(200,16,zone_txt);
 */
 
+//win text
 if win == true
 {
 	draw_text(200,200,"WARP DRIVE REFUELED");

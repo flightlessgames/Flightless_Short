@@ -1,4 +1,4 @@
-/// @description Insert description here
+/// @description Default Input, Movement, Collision
 // You can write your code in this editor
 if obj_gui.con_tar == my_id
 {

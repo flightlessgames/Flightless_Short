@@ -1,10 +1,13 @@
 /// @description Moves Camera to Next Player
+
+//set character
 if keyboard_check_pressed(ord("I"))
 {
 	if ++con_tar > pc_count
 		con_tar = 1;
 }
 
+//character viewport
 switch con_tar
 {
 	default:
@@ -24,6 +27,7 @@ switch con_tar
 		break;
 }
 
+//win condition
 if win == true
 {
 	if keyboard_check_pressed(ord("K"))
