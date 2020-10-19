@@ -1,0 +1,84 @@
+Point + Click Adventure
+(Character Controller Optional? POV/Character in Scene?)
+"Underwater RescueAnimal Friends Squad!" Theme
+
+Goal
+Water_Dog must enter the [[Control Cabin]] but needs 2 [Access Card]s,
+
+Water_Dog needs:
+ - Water_Duck [Access Card]
+	- Trade for [Sandwich]
+
+ - Water_Cat [Access Card]
+	- Locked out of [[Bedroom]]
+
+Quest 1
+ - Assemble [Sandwich]:
+(Assemble Multiple Object Quest)
+	1.1
+	- [Bread]
+		- In [[Pantry?]], Find on Countertop
+	1.2
+	- [Cucumber]
+		- Water_Rabit in the [[Garden]]
+		- Trade for [Shovel], needed to dig up the [Cucumber]
+		- [Shovel] is in [[Water_Raccooon's Room]]
+	1.3
+	- [Lettuce]
+		- In [Trash] in [[Mess Hall]]
+		- Talking to Water_Cat gives hint (He threw it away)
+	1.4
+	- [Mayo]
+		- Water_Cow will trade for it in [[Kitchen]]
+		- Must Solve Match#2 Minigame for Water_Cow
+
+Quest 2
+ - Enter [[Bedroom]]
+(Long Single Trade Quest)
+	2.1
+	- Water_Cat is busy, but gives Water_Dog permission to enter
+	  Their room/bunk-mate is Water_Fish
+	
+	2.2
+	- Water_Fish lost their special [Clam] after letting Water_Raccoon Borrow it
+	  Won't enter their [[Bedroom]] until they have their [Clam] back.
+
+	2.3
+	- Water_Raccoon's room is dirty, but lets Water_Dog look around
+	  Click+Drag Minigame to uncover objects in room
+		- [Shovel]
+		- [Clam]
+		- [Misc]
+
+
+
+[8] Rooms:
+[[Control Cabin]]
+[[Bedroom]]
+[[Pantry?]]
+[[Garden]]
+[[Water_Raccoon's Room]]
+[[Mess Hall]]
+[[Kitchen]]
+[[Hallway]] (Cross Shape)
+
+[8] Characters:
+Water_Dog (Player)
+Water_Duck
+Water_Cat
+Water_Rabit
+Water_Raccoon
+Water_Cow
+Water_Fish
+
+[10] Objects:
+[Duck Access Card]
+[Cat Access Card]
+[Sandwich]
+[Bread]
+[Cucumber]
+[Mayo]
+[Lettuce]
+[Clam]
+[Shovel]
+[Misc]

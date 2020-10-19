@@ -28,7 +28,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Parents",
-    "path": "folders/Objects/Retro_Characters/Parents.yy",
+    "path": "folders/Objects/Neo_Interactibles/Retro_Characters/Parents.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_pc_resource",

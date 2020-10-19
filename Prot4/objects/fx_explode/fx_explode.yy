@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "Sprite15",
-    "path": "sprites/Sprite15/Sprite15.yy",
+    "name": "spr_explode",
+    "path": "sprites/spr_explode/spr_explode.yy",
   },
   "solid": false,
   "visible": true,

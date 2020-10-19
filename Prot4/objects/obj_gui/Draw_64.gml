@@ -7,9 +7,7 @@ draw_text(10,20, "Ship1 Minerals: " + string(obj_pc_ship1.metals));
 if instance_exists(obj_pc_ship3)
 	draw_text(10,36, "Ship3 Fuel: " + string(obj_pc_ship3.fuel / (obj_pc_ship3.max_fuel/100)));
 else
-	draw_text(10,36, "Ship3 Disabled.");
-
-draw_text(10,52, "Ship3_Istance: " + string(obj_pc_ship1.ship3_instance));
+	draw_text(10,36, "Ship3 Fuel: N/A");
 
 //character selector
 switch con_tar
@@ -58,7 +56,7 @@ draw_text(200,16,zone_txt);
 //win text
 if win == true
 {
-	draw_text(200,200,"WARP DRIVE REFUELED");
+	draw_text(200,200,"RUINS EXPLORED!!");
 	draw_text(200,224,"YOU WIN!!");
 	draw_text(200,248,"Press [K] to play again! Press [L] to exit");
 }

@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "spr_pc2",
-    "path": "sprites/spr_pc2/spr_pc2.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
@@ -31,7 +28,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Player Characters",
-    "path": "folders/Objects/Retro_Characters/Player Characters.yy",
+    "path": "folders/Objects/Neo_Interactibles/Retro_Characters/Player Characters.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_pc2",

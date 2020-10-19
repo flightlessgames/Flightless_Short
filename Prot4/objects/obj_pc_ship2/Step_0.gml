@@ -4,6 +4,11 @@
 // Inherit the parent event
 event_inherited();
 
+//parent overrides
+if distance_to_object(obj_pc_ship1) < r_min
+	key_down = 0;
+
+//movement mechanics
 theta = point_direction(x,y,obj_pc_ship1.x,obj_pc_ship1.y);	//direction nose is pointed
 image_angle = theta + 180;
 
@@ -36,12 +41,14 @@ else
 	vsp = vsp / total_magnitude * movespeed;
 }
 
+//follow ship1 when not in control
 if !(obj_gui.con_tar == my_id)
 {
 	hsp	= obj_pc_ship1.hsp;
 	vsp	= obj_pc_ship1.vsp;
 }
 
+//special mechanics
 //tractor beam
 if obj_gui.con_tar == my_id
 	key_j = keyboard_check(ord("J"));	//replace checkpressed with check
