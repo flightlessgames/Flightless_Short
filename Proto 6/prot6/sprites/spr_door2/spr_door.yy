@@ -14,19 +14,18 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 128,
+  "width": 64,
   "height": 64,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
   },
   "swatchColours": null,
-  "gridX": 16,
-  "gridY": 16,
+  "gridX": 4,
+  "gridY": 4,
   "frames": [
     {"compositeImage":{"FrameId":{"name":"322578b9-c574-400b-8324-674241f43026","path":"sprites/spr_door/spr_door.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"322578b9-c574-400b-8324-674241f43026","path":"sprites/spr_door/spr_door.yy",},"LayerId":{"name":"a202bf56-a971-4c17-94ea-ef75fb0da757","path":"sprites/spr_door/spr_door.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-        {"FrameId":{"name":"322578b9-c574-400b-8324-674241f43026","path":"sprites/spr_door/spr_door.yy",},"LayerId":{"name":"97222b65-6603-4f07-9548-c8d9a8648c34","path":"sprites/spr_door/spr_door.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"spr_door","path":"sprites/spr_door/spr_door.yy",},"resourceVersion":"1.0","name":"322578b9-c574-400b-8324-674241f43026","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
@@ -55,7 +54,7 @@
     "backdropHeight": 768,
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
-    "xorigin": 64,
+    "xorigin": 32,
     "yorigin": 64,
     "eventToFunction": {},
     "eventStubScript": null,
@@ -66,7 +65,6 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":false,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Layer 1","resourceVersion":"1.0","name":"97222b65-6603-4f07-9548-c8d9a8648c34","tags":[],"resourceType":"GMImageLayer",},
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"a202bf56-a971-4c17-94ea-ef75fb0da757","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
