@@ -33,6 +33,8 @@ if (distance_to_point(mouse_x, mouse_y)<=1) && (mouse_check_button_pressed(mb_le
 			
 				obj_pc1.quest1_state[2] = 1;
 				obj_gui.quest3_hint = "";
+				obj_dirt.image_index = 1;
+				obj_cart.image_index = 1;
 				
 				obj_pc1.pickup_txt = "-1 Shovel";
 				obj_pc1.alarm[0] = obj_pc1.alarm_time;

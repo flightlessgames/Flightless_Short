@@ -14,3 +14,9 @@ else
 	dialog_box[2] = "";	
 	dialog_box[3] = "";	
 }
+
+if (mouse_check_button_pressed(mb_left))
+{
+	clicked = true;	
+	alarm_set(0,5);
+}

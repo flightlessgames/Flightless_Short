@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_junk",
-    "path": "sprites/spr_junk/spr_junk.yy",
+    "name": "spr_Trash",
+    "path": "sprites/spr_Trash/spr_Trash.yy",
   },
   "solid": false,
   "visible": true,
@@ -22,7 +22,6 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"obj_junktrash","path":"objects/obj_junktrash/obj_junktrash.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"obj_junktrash","path":"objects/obj_junktrash/obj_junktrash.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],

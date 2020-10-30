@@ -70,8 +70,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"cdb1e7b3-3c8a-43f0-98ff-7b8c8b7438ac","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "decor",
-    "path": "folders/Sprites/rooms/decor.yy",
+    "name": "signs",
+    "path": "folders/Sprites/rooms/decor/signs.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_bed2",

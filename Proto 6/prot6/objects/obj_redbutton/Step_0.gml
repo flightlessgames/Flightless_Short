@@ -9,13 +9,18 @@ if (distance_to_point(mouse_x, mouse_y)<=1) && (mouse_check_button_pressed(mb_le
 	{
 		image_index = image_number - 1;
 		
-		obj_gui.quest1_hint = "";
-		obj_gui.quest2_hint = "";
-		obj_gui.quest3_hint = "You Win!";
+		if state == false
+		{
+			obj_gui.quest1_hint = "";
+			obj_gui.quest2_hint = "";
+			obj_gui.quest3_hint = "You Win!";
 		
-		obj_pc1.pickup_txt = "+1 Red Button";
-		obj_pc1.alarm[0] = obj_pc1.alarm_time;
+			obj_pc1.pickup_txt = "+1 Red Button";
+			obj_pc1.alarm[0] = obj_pc1.alarm_time;
 		
-		show_debug_message("Win Game");
+			alarm_set(0,90);
+			state = true;
+			door.warp_state = false;
+		}
 	}
 }

@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"0289656f-8329-4310-80c3-b4460d6c866a","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "prot6",
-    "path": "prot6.yyp",
+    "name": "clickables",
+    "path": "folders/Sprites/clickables.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_fishtable",

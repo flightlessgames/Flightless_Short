@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "npc_cow",
-    "path": "sprites/npc_cow/npc_cow.yy",
+    "name": "spr_wCow",
+    "path": "sprites/spr_wCow/spr_wCow.yy",
   },
   "solid": false,
   "visible": true,

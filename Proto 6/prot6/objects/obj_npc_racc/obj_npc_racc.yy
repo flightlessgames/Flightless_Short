@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "npc_racc",
-    "path": "sprites/npc_racc/npc_racc.yy",
+    "name": "spr_wRacc",
+    "path": "sprites/spr_wRacc/spr_wRacc.yy",
   },
   "solid": false,
   "visible": true,

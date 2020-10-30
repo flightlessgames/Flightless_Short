@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "npc_cat",
-    "path": "sprites/npc_cat/npc_cat.yy",
+    "name": "spr_wCat",
+    "path": "sprites/spr_wCat/spr_wCat.yy",
   },
   "solid": false,
   "visible": true,

@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "npc_fish",
-    "path": "sprites/npc_fish/npc_fish.yy",
+    "name": "spr_wFish",
+    "path": "sprites/spr_wFish/spr_wFish.yy",
   },
   "solid": false,
   "visible": true,

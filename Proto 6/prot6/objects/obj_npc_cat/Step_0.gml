@@ -12,7 +12,6 @@ if (distance_to_point(mouse_x, mouse_y)<=1) && (mouse_check_button_pressed(mb_le
 			obj_gui.dialog_box[2] = "He'll let you in!";
 			
 			obj_pc1.quest2_state = 1;
-			obj_gui.quest1_hint = "Talk to Duck";
 			obj_gui.quest2_hint = "Talk to Cat's Roommate (Fish)";
 			
 			break;

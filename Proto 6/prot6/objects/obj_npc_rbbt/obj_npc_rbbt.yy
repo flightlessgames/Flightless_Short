@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_rbbt",
-    "path": "sprites/spr_rbbt/spr_rbbt.yy",
+    "name": "spr_wBunny",
+    "path": "sprites/spr_wBunny/spr_wBunny.yy",
   },
   "solid": false,
   "visible": true,

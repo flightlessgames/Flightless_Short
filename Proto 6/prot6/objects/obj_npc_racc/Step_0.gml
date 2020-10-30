@@ -21,4 +21,12 @@ if (distance_to_point(mouse_x, mouse_y)<=1) && (mouse_check_button_pressed(mb_le
 			
 			break;
 	}
+	
+	if !(instance_exists(obj_junktrash))
+	{
+		obj_gui.dialog_box[0] = "Oh, you cleaned up my room...";
+		obj_gui.dialog_box[1] = "I didn't really ask you do to that...";
+		obj_gui.dialog_box[2] = "";
+		obj_gui.dialog_box[3] = "It's kind of nice... I guess... ...";
+	}
 }
